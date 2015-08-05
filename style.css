@@ -1,0 +1,42 @@
+p{
+  margin: 0px;
+}
+.content{
+  width: 100%;
+}
+.gameboard{
+    background-color: #dcdcdc;
+    overflow: auto;
+    margin: 0 auto;
+    padding: 5%;
+    width: 200px;
+}
+.box {
+   background-color: red;
+    width: 40px;
+    height: 40px;
+    border: 1px solid black;
+    font-family: helvetica;
+    font-size: 35px;
+    text-align: center;
+}
+.row {
+    width: 41px;
+    float: left;
+}
+.player {
+  float: right;
+  margin: 5px;
+}
+.one{
+  color: blue;
+}
+.two{
+  color: red;
+}
+.X{
+
+}
+.O{
+  
+}
