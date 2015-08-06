@@ -28,8 +28,8 @@ p{
   float: right;
   margin: 5px;
 }
-.one{
-  color: blue;
+.One{
+  background-color: blue;
 }
 .two{
   color: red;
@@ -38,5 +38,9 @@ p{
 
 }
 .O{
-  
+
+}
+.rowOneColOne{
+  width: auto;
+  height: auto;
 }

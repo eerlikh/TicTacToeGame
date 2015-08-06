@@ -10,22 +10,32 @@
   <body>
     <div class="content">
       <div class="gameboard">
-          <div class="player one">P1</div>
-          <div class="player two">P2</div>
+          <div class="player Ptwo">P2</div>
+          <div class="player Pone">P1</div>
+
           <div class="row">
-            <div class="box" onclick="changeState()"></div>
-            <div class="box" onclick="changeState()"></div>
-            <div class="box" onclick="changeState()"></div>
+            <div class="box One">
+              <div class="rowOneColOneX">X</div>
+              <div class="rowOneColOneO">O</div>
+            </div>
+            <div class="box Two">
+              <div class="rowTwoColOneX">X</div>
+              <div class="rowTwoColOneO">O</div>
+            </div>
+            <div class="box Three">
+              <div class="rowThreeColOneX">X</div>
+              <div class="rowThreeColOneO">O</div>
+            </div>
           </div>
           <div class="row">
-            <div class="box" onclick="changeState()"></div>
-            <div class="box" onclick="changeState()"></div>
-            <div class="box" onclick="changeState()"></div>
+            <div class="box rowTwoColOne">O</div>
+            <div class="box rowTwoColTwo">X</div>
+            <div class="box rowTwoColThree">O</div>
           </div>
           <div class="row">
-            <div class="box" onclick="changeState()"></div>
-            <div class="box" onclick="changeState()"></div>
-            <div class="box" onclick="changeState()"></div>
+            <div class="box rowThreeColOne"></div>
+            <div class="box rowThreeColTwo"></div>
+            <div class="box rowThreeColThree"></div>
           </div>
       </div>
     </div>
