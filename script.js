@@ -30,8 +30,6 @@ $(document).ready(function() {
 });
 
 function validateMove(){
-
-
 }
 
 function checkGameState(){
@@ -48,35 +46,35 @@ function checkGameState(){
       return boards[element];
     })
 
-  var victoryFilterPlayerOne =  selection.filter(function(victory){
-        for(var i=0; i<victory.length; i++){
-            if(victory[i]=="one", "one", "one"){
-            //    console.log(victory[i] " this is p1 victory array");
-                alert("Player one has won the game! Congratulations player one, you are officially superior to player two.  Play again??");
-            }
-            // else {
-            //   alert "Player two has won"
-            // }
-            //resetBoard()
-        }
-        return false;
-    });
-
-    console.log(victoryFilterPlayerOne);
-
-    var victoryFilterPlayerTwo =  selection.filter(function(victory){
-          for(var i=0; i<victory.length; i++){
-              if(victory[i]=="two", "two", "two"){
-              //    console.log(victory[i] " this is p2 victory array");
-                  alert("Player two has won the game! Congratulations player one, you are officially superior to player two. Play again?");
-                  resetBoard();
-                  return true;
-              }
-          }
-          return false;
-      });
-
-    console.log(victoryFilterPlayerTwo);
+  // var victoryFilterPlayerOne =  selection.filter(function(victory){
+  //       for(var i=0; i<victory.length; i++){
+  //           if(victory[i]=="one", "one", "one"){
+  //           //    console.log(victory[i] " this is p1 victory array");
+  //               alert("Player one has won the game! Congratulations player one, you are officially superior to player two.  Play again??");
+  //           }
+  //           // else {
+  //           //   alert "Player two has won"
+  //           // }
+  //           //resetBoard()
+  //       }
+  //       return false;
+  //   });
+  //
+  //   console.log(victoryFilterPlayerOne);
+  //
+  //   var victoryFilterPlayerTwo =  selection.filter(function(victory){
+  //         for(var i=0; i<victory.length; i++){
+  //             if(victory[i]=="two", "two", "two"){
+  //             //    console.log(victory[i] " this is p2 victory array");
+  //                 alert("Player two has won the game! Congratulations player one, you are officially superior to player two. Play again?");
+  //                 resetBoard();
+  //                 return true;
+  //             }
+  //         }
+  //         return false;
+  //     });
+  //
+  //   console.log(victoryFilterPlayerTwo);
 
     // ? are all the "selection" the same?
     // if (selection===[i["one", "one", "one"]]){

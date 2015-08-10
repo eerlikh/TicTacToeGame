@@ -39,11 +39,14 @@ p{
 }
 .playerOne {
   float: left;
-  margin: 0px 0px 0px 20px;
+  margin: 0px;
+  padding: 5px;
+
 }
 .playerTwo {
   float: right;
-  margin: 0px 0px 0px 20px;
+  margin: 0px;
+  padding: 5px;
 }
 .P-one {
   /*background-color: #1E90FF;*/
