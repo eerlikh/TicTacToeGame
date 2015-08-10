@@ -9,35 +9,68 @@
   </head>
   <body>
     <div class="content">
-      <div class="gameboard">
-          <div class="player Ptwo">P2</div>
-          <div class="player Pone">P1</div>
 
-          <div class="row">
+      <div class="playerOne P-one">P1</div>
+      <div class="playerTwo P-two">P2</div>
+
+      <div class="gameboard">
+
+        <h2>Tic Tac Toe</h2>
+
+<!-- grid is divided into columns and rows. Each column is a container for 3 rows.-->
+
+          <div class="col">
             <div class="box One">
-              <div class="rowOneColOneX">X</div>
-              <div class="rowOneColOneO">O</div>
+              <div class="rowOneColOne"></div>
+              <!-- <div class="rowOneColOneO"></div> -->
             </div>
             <div class="box Two">
-              <div class="rowTwoColOneX">X</div>
-              <div class="rowTwoColOneO">O</div>
+              <div class="rowTwoColOne"></div>
+              <!-- <div class="rowTwoColOneO"></div> -->
             </div>
             <div class="box Three">
-              <div class="rowThreeColOneX">X</div>
-              <div class="rowThreeColOneO">O</div>
+              <div class="rowThreeColOne"></div>
+              <!-- <div class="rowThreeColOneO"></div> -->
             </div>
           </div>
-          <div class="row">
-            <div class="box rowTwoColOne">O</div>
-            <div class="box rowTwoColTwo">X</div>
-            <div class="box rowTwoColThree">O</div>
+          <!--END OF FIRST COLUMN-->
+
+          <div class="col">
+            <div class="box Four">
+              <div class="rowOneColTwo"></div>
+              <!-- <div class="rowOneColTwoO"></div> -->
+            </div>
+            <div class="box Five">
+              <div class="rowTwoColTwo"></div>
+              <!-- <div class="rowTwoColTwoO"></div> -->
+            </div>
+            <div class="box Six">
+              <div class="rowThreeColTwo"></div>
+              <!-- <div class="rowThreeColTwoO"></div> -->
+            </div>
           </div>
-          <div class="row">
-            <div class="box rowThreeColOne"></div>
-            <div class="box rowThreeColTwo"></div>
-            <div class="box rowThreeColThree"></div>
-          </div>
-      </div>
-    </div>
+          <!--END OF SECOND COLUMN-->
+
+          <div class="col">
+            <div class="box Seven">
+              <div class="rowOneColThree"></div>
+              <!-- <div class="rowOneColThreeO"></div> -->
+            </div>
+            <div class="box Eight">
+              <div class="rowTwoColThree"></div>
+              <!-- <div class="rowTwoColThreeO"></div> -->
+            </div>
+            <div class="box Nine">
+              <div class="rowThreeColThree"></div>
+              <!-- <div class="rowThreeColThreeO"></div> -->
+            </div>
+          </div>  <!--END OF THIRD COLUMN-->
+
+      </div> <!--END OF GAMEBOARD-->
+
+
+
+    </div> <!--END OF CONTENT DIV-->
+
   </body>
 </html>
